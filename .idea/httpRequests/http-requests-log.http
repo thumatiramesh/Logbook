@@ -1,0 +1,36 @@
+GET http://127.0.0.1:8080/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-24T114243.200.json
+
+###
+
+GET http://127.0.0.1:8080/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-24T114223.200.json
+
+###
+
+GET http://127.0.0.1:8080/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-24T114156.200.json
+
+###
+
+GET http://127.0.0.1:8080/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-24T114103.200.json
+
+###
+

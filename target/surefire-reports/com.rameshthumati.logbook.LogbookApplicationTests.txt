@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.rameshthumati.logbook.LogbookApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.476 s - in com.rameshthumati.logbook.LogbookApplicationTests

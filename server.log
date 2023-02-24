@@ -1,0 +1,166 @@
+2023-02-24 09:13:23.496  INFO 90603 --- [main] c.r.logbook.LogbookApplication           : Starting LogbookApplication using Java 11.0.9 on P2Y356VQ0Q with PID 90603 (/Users/A643212/Documents/Projects/logbook/target/classes started by A643212 in /Users/A643212/Documents/Projects/logbook)
+2023-02-24 09:13:23.499  INFO 90603 --- [main] c.r.logbook.LogbookApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:13:24.304  INFO 90603 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:13:24.359  INFO 90603 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-02-24 09:13:24.816  INFO 90603 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24 09:13:24.821  INFO 90603 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:13:24.821  INFO 90603 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-24 09:13:25.006  INFO 90603 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:13:25.006  INFO 90603 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1461 ms
+2023-02-24 09:13:25.263  INFO 90603 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:13:25.283  INFO 90603 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-02-24 09:13:25.341  INFO 90603 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:13:25.381  INFO 90603 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:13:25.516  INFO 90603 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:13:25.524  INFO 90603 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:13:25.880  INFO 90603 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:13:25.887  INFO 90603 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:13:26.264  WARN 90603 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:13:26.595  INFO 90603 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 09:13:26.615  INFO 90603 --- [main] c.r.logbook.LogbookApplication           : Started LogbookApplication in 3.96 seconds (JVM running for 6.62)
+2023-02-24 09:13:36.626  INFO 90603 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 09:13:36.629  INFO 90603 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24 09:13:36.634  INFO 90603 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-02-24 09:16:02.110  INFO 90603 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:16:02.114  INFO 90603 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 09:16:02.175  INFO 90603 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 09:25:08.756  INFO 95031 --- [main] c.r.logbook.LogbookApplication           : Starting LogbookApplication using Java 11.0.9 on P2Y356VQ0Q with PID 95031 (/Users/A643212/Documents/Projects/logbook/target/classes started by A643212 in /Users/A643212/Documents/Projects/logbook)
+2023-02-24 09:25:08.764  INFO 95031 --- [main] c.r.logbook.LogbookApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:25:09.703  INFO 95031 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:25:09.749  INFO 95031 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-02-24 09:25:10.229  INFO 95031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24 09:25:10.235  INFO 95031 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:25:10.235  INFO 95031 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-24 09:25:10.411  INFO 95031 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:25:10.411  INFO 95031 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1598 ms
+2023-02-24 09:25:10.744  INFO 95031 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:25:10.764  INFO 95031 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-02-24 09:25:10.825  INFO 95031 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:25:10.872  INFO 95031 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:25:11.006  INFO 95031 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:25:11.015  INFO 95031 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:25:11.380  INFO 95031 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:25:11.386  INFO 95031 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:25:11.730  WARN 95031 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:25:12.053  INFO 95031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 09:25:12.066  INFO 95031 --- [main] c.r.logbook.LogbookApplication           : Started LogbookApplication in 4.33 seconds (JVM running for 5.166)
+2023-02-24 09:25:16.317  INFO 95031 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 09:25:16.319  INFO 95031 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24 09:25:16.324  INFO 95031 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-02-24 09:25:16.402 TRACE 95031 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : Incoming Request: 997b3e7bb2721008
+Remote: 0:0:0:0:0:0:0:1
+POST http://localhost:8080/students HTTP/1.1
+accept: */*
+accept-encoding: gzip, deflate, br
+connection: keep-alive
+content-length: 82
+content-type: application/json
+host: localhost:8080
+postman-token: d7a615aa-9b8a-4f4a-9627-f57b46d306db
+user-agent: PostmanRuntime/7.31.0
+
+{"studentName":"Ramesh","studentAge":50,"address":"Nellore"}
+2023-02-24 09:25:16.621 TRACE 95031 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : Outgoing Response: 997b3e7bb2721008
+Duration: 284 ms
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Type: application/json
+Date: Fri, 24 Feb 2023 03:55:16 GMT
+Keep-Alive: timeout=60
+Transfer-Encoding: chunked
+
+{"studentName":"Ramesh","studentAge":"50","address":"Nellore","id":13}
+2023-02-24 09:26:01.663  INFO 95031 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:26:01.667  INFO 95031 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 09:26:01.676  INFO 95031 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 09:26:08.425  INFO 95371 --- [main] c.r.logbook.LogbookApplication           : Starting LogbookApplication using Java 11.0.9 on P2Y356VQ0Q with PID 95371 (/Users/A643212/Documents/Projects/logbook/target/classes started by A643212 in /Users/A643212/Documents/Projects/logbook)
+2023-02-24 09:26:08.429  INFO 95371 --- [main] c.r.logbook.LogbookApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:26:09.373  INFO 95371 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:26:09.420  INFO 95371 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-02-24 09:26:09.872  INFO 95371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24 09:26:09.878  INFO 95371 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:26:09.878  INFO 95371 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-24 09:26:10.045  INFO 95371 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:26:10.046  INFO 95371 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1574 ms
+2023-02-24 09:26:10.442  INFO 95371 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:26:10.461  INFO 95371 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-02-24 09:26:10.517  INFO 95371 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:26:10.561  INFO 95371 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:26:10.677  INFO 95371 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:26:10.685  INFO 95371 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:26:11.037  INFO 95371 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:26:11.047  INFO 95371 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:26:11.370  WARN 95371 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:26:11.629  INFO 95371 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 09:26:11.642  INFO 95371 --- [main] c.r.logbook.LogbookApplication           : Started LogbookApplication in 4.392 seconds (JVM running for 5.279)
+2023-02-24 09:26:15.894  INFO 95371 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 09:26:15.896  INFO 95371 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24 09:26:15.902  INFO 95371 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-02-24 09:26:15.996 TRACE 95371 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"remote","type":"request","correlation":"e69a278aa49c5510","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["82"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["3f7e9e2c-e3a4-4053-a136-d32f213605bd"],"user-agent":["PostmanRuntime/7.31.0"]},"body":{"studentName":"Ramesh","studentAge":50,"address":"Nellore"}}
+2023-02-24 09:26:16.162 TRACE 95371 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"local","type":"response","correlation":"e69a278aa49c5510","duration":247,"protocol":"HTTP/1.1","status":200,"headers":{"Connection":["keep-alive"],"Content-Type":["application/json"],"Date":["Fri, 24 Feb 2023 03:56:16 GMT"],"Keep-Alive":["timeout=60"],"Transfer-Encoding":["chunked"]},"body":{"studentName":"Ramesh","studentAge":"50","address":"Nellore","id":14}}
+2023-02-24 09:27:07.136  INFO 95371 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:27:07.139  INFO 95371 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 09:27:07.198  INFO 95371 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 09:27:13.281  INFO 95753 --- [main] c.r.logbook.LogbookApplication           : Starting LogbookApplication using Java 11.0.9 on P2Y356VQ0Q with PID 95753 (/Users/A643212/Documents/Projects/logbook/target/classes started by A643212 in /Users/A643212/Documents/Projects/logbook)
+2023-02-24 09:27:13.286  INFO 95753 --- [main] c.r.logbook.LogbookApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:27:14.280  INFO 95753 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:27:14.326  INFO 95753 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2023-02-24 09:27:14.785  INFO 95753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24 09:27:14.791  INFO 95753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:27:14.791  INFO 95753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-24 09:27:14.995  INFO 95753 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:27:14.995  INFO 95753 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1665 ms
+2023-02-24 09:27:15.376  INFO 95753 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:27:15.398  INFO 95753 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-02-24 09:27:15.461  INFO 95753 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:27:15.523  INFO 95753 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:27:15.641  INFO 95753 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:27:15.648  INFO 95753 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:27:16.007  INFO 95753 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:27:16.013  INFO 95753 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:27:16.340  WARN 95753 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:27:16.609  INFO 95753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 09:27:16.621  INFO 95753 --- [main] c.r.logbook.LogbookApplication           : Started LogbookApplication in 4.337 seconds (JVM running for 5.211)
+2023-02-24 09:27:20.168  INFO 95753 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 09:27:20.171  INFO 95753 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24 09:27:20.176  INFO 95753 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-02-24 09:27:20.283 TRACE 95753 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"remote","type":"request","correlation":"aa15d92df2bfe7c1","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["82"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["d5c372ca-cebd-4163-b4f0-e50642b79b14"],"user-agent":["PostmanRuntime/7.31.0"]},"body":{"studentName":"Ramesh","studentAge":50,"address":"Nellore"}}
+2023-02-24 09:27:20.464 TRACE 95753 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"local","type":"response","correlation":"aa15d92df2bfe7c1","duration":278,"protocol":"HTTP/1.1","status":200,"headers":{"Connection":["keep-alive"],"Content-Type":["application/json"],"Date":["Fri, 24 Feb 2023 03:57:20 GMT"],"Keep-Alive":["timeout=60"],"Transfer-Encoding":["chunked"]},"body":{"studentName":"Ramesh","studentAge":"50","address":"Nellore","id":15}}
+2023-02-24 09:30:46.167  INFO 95753 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:30:46.170  INFO 95753 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 09:30:46.178  INFO 95753 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-24 09:31:01.668  INFO 96713 --- [main] c.r.logbook.LogbookApplication           : Starting LogbookApplication using Java 11.0.9 on P2Y356VQ0Q with PID 96713 (/Users/A643212/Documents/Projects/logbook/target/classes started by A643212 in /Users/A643212/Documents/Projects/logbook)
+2023-02-24 09:31:01.673  INFO 96713 --- [main] c.r.logbook.LogbookApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-24 09:31:02.759  INFO 96713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-24 09:31:02.810  INFO 96713 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-02-24 09:31:03.302  INFO 96713 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-24 09:31:03.308  INFO 96713 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24 09:31:03.308  INFO 96713 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-24 09:31:03.477  INFO 96713 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24 09:31:03.477  INFO 96713 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1746 ms
+2023-02-24 09:31:03.867  INFO 96713 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-24 09:31:03.890  INFO 96713 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-02-24 09:31:03.953  INFO 96713 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-24 09:31:04.004  INFO 96713 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-24 09:31:04.126  INFO 96713 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-24 09:31:04.135  INFO 96713 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-24 09:31:04.506  INFO 96713 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-24 09:31:04.512  INFO 96713 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:31:04.854  WARN 96713 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-24 09:31:05.127  INFO 96713 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-24 09:31:05.140  INFO 96713 --- [main] c.r.logbook.LogbookApplication           : Started LogbookApplication in 4.747 seconds (JVM running for 5.559)
+2023-02-24 09:31:08.596  INFO 96713 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 09:31:08.598  INFO 96713 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24 09:31:08.604  INFO 96713 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-02-24 09:31:08.715 TRACE 96713 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"remote","type":"request","correlation":"d63e621df594fb81","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["1902"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["83683fbc-d591-4708-bdaf-7ca3201fe71d"],"user-agent":["PostmanRuntime/7.31.0"]},"body":[{"origin":"remote","type":"request","correlation":"aa15d92df2bfe7c1","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["82"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["d5c372ca-cebd-4163-b4f0-e50642b79b14"],"user-agent":["PostmanRuntime/7.31.0"]},"body":{"studentName":"Ramesh","studentAge":50,"address":"Nellore"}},{"origin":"local","type":"response","correlation":"aa15d92df2bfe7c1","duration":278,"protocol":"HTTP/1.1","status":200,"headers":{"Connection":["keep-alive"],"Content-Type":["application/json"],"Date":["Fri, 24 Feb 2023 03:57:20 GMT"],"Keep-Alive":["timeout=60"],"Transfer-Encoding":["chunked"]},"body":{"studentName":"Ramesh","studentAge":"50","address":"Nellore","id":15}}]}
+2023-02-24 09:31:08.769  WARN 96713 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.rameshthumati.logbook.entity.Student` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.rameshthumati.logbook.entity.Student` from Array value (token `JsonToken.START_ARRAY`)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]]
+2023-02-24 09:31:08.776 TRACE 96713 --- [http-nio-8080-exec-2] org.zalando.logbook.Logbook              : {"origin":"local","type":"response","correlation":"d63e621df594fb81","duration":160,"protocol":"HTTP/1.1","status":400}
+2023-02-24 09:31:47.542 TRACE 96713 --- [http-nio-8080-exec-4] org.zalando.logbook.Logbook              : {"origin":"remote","type":"request","correlation":"90dc6c9511ed8004","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["0"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["b2e577ae-840e-499f-af85-10dea71c4fb9"],"user-agent":["PostmanRuntime/7.31.0"]}}
+2023-02-24 09:31:47.549  WARN 96713 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.rameshthumati.logbook.entity.Student com.rameshthumati.logbook.controllers.MainController.addStudent(com.rameshthumati.logbook.entity.Student)]
+2023-02-24 09:31:47.552 TRACE 96713 --- [http-nio-8080-exec-4] org.zalando.logbook.Logbook              : {"origin":"local","type":"response","correlation":"90dc6c9511ed8004","duration":12,"protocol":"HTTP/1.1","status":400}
+2023-02-24 09:32:26.430 TRACE 96713 --- [http-nio-8080-exec-6] org.zalando.logbook.Logbook              : {"origin":"remote","type":"request","correlation":"fb08956395f9dd7b","protocol":"HTTP/1.1","remote":"0:0:0:0:0:0:0:1","method":"POST","uri":"http://localhost:8080/students","host":"localhost","path":"/students","scheme":"http","port":"8080","headers":{"accept":["*/*"],"accept-encoding":["gzip, deflate, br"],"connection":["keep-alive"],"content-length":["0"],"content-type":["application/json"],"host":["localhost:8080"],"postman-token":["168d0f8b-9959-42dd-bfa2-ee7cd93c1baa"],"user-agent":["PostmanRuntime/7.31.0"]}}
+2023-02-24 09:32:26.433  WARN 96713 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.rameshthumati.logbook.entity.Student com.rameshthumati.logbook.controllers.MainController.addStudent(com.rameshthumati.logbook.entity.Student)]
+2023-02-24 09:32:26.434 TRACE 96713 --- [http-nio-8080-exec-6] org.zalando.logbook.Logbook              : {"origin":"local","type":"response","correlation":"fb08956395f9dd7b","duration":5,"protocol":"HTTP/1.1","status":400}
+2023-02-24 09:54:47.526  INFO 96713 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-24 09:54:47.531  INFO 96713 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-24 09:54:47.593  INFO 96713 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
