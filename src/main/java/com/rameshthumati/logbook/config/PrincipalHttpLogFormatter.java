@@ -1,12 +1,11 @@
-package com.rameshthumati.logbook.config;
+package com.springleaf.logbook.config;
 
-import org.zalando.logbook.Correlation;
-import org.zalando.logbook.HttpLogFormatter;
-import org.zalando.logbook.HttpResponse;
-import org.zalando.logbook.Precorrelation;
+import org.zalando.logbook.*;
 import org.zalando.logbook.json.JsonHttpLogFormatter;
 
 import java.io.IOException;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 final class PrincipalHttpLogFormatter implements HttpLogFormatter {
@@ -18,8 +17,9 @@ final class PrincipalHttpLogFormatter implements HttpLogFormatter {
     }
 
     @Override
-    public String format(Precorrelation precorrelation, org.zalando.logbook.HttpRequest request) throws IOException {
+    public String format(Precorrelation precorrelation, HttpRequest request) throws IOException {
         final Map<String, Object> content = delegate.prepare(precorrelation, request);
+        content.put("Date", getFormattedDate());
         content.remove("remote");
         content.remove("origin");
         content.remove("protocol");
@@ -33,5 +33,12 @@ final class PrincipalHttpLogFormatter implements HttpLogFormatter {
         content.remove("origin");
         content.put("type", "RESPONSE");
         return delegate.format(content);
+    }
+
+    private String getFormattedDate() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E, d MMM yyyy HH:mm:ss z");
+        ZonedDateTime now = ZonedDateTime.now(ZoneOffset.UTC);
+        String formattedDate = now.format(formatter);
+        return formattedDate;
     }
 }
